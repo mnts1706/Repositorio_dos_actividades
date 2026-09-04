@@ -3,14 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Estudiante estudiante = new Estudiante(
-                "Ana",
-                "Ingeniería en Informática",
-                20
-        );
-
-        estudiante.mostrarInformacion();
-
 
         Scanner scanner = new Scanner(System.in);
 
@@ -32,7 +24,7 @@ public class Main {
         } else {
             System.out.println("Estudiante adulto.");
         }
-        for (int estudiantex = 1; estudiantex <= 10; estudiantex++) {
+        for (int estudiantex = 1; estudiantex <= 5; estudiantex++) {
             System.out.println("Asignando estudiante " + estudiantex);
         }
 
