@@ -36,5 +36,31 @@ public class Main {
             System.out.println("Asignando estudiante " + estudiantex);
         }
 
+        int eleccion=-1;
+                while (eleccion!=0){
+                    System.out.println("=== SISTEMA DUOC ===");
+                    System.out.println("1. Mostrar estado");
+                    System.out.println("2. Procesar operación");
+                    System.out.println("0. Salir");
+
+                    System.out.print("Seleccione una opción: ");
+                    eleccion = scanner.nextInt();
+                    if (eleccion == 1) {
+                        System.out.println("Sistema operativo.");
+                    } else if (eleccion == 2) {
+                        System.out.println("Procesando operación...");
+                    } else if (eleccion == 0) {
+                        System.out.println("Cerrando sistema...");
+                    }
+                }
     }
 }
+
+
+
+
+
+
+
+
+
