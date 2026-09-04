@@ -32,7 +32,9 @@ public class Main {
         } else {
             System.out.println("Estudiante adulto.");
         }
-
+        for (int estudiantex = 1; estudiantex <= 10; estudiantex++) {
+            System.out.println("Asignando estudiante " + estudiantex);
+        }
 
     }
 }
